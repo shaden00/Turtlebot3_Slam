@@ -74,3 +74,4 @@ $ cd ~/catkin_ws && catkin_make
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
+![image](https://user-images.githubusercontent.com/97844314/183302801-e90b474f-c538-4c8f-a727-d4474a68ab5b.jpeg)
