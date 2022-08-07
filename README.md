@@ -161,6 +161,15 @@ $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/m
 * Move the robot back and forth a bit to collect the surrounding environment information and narrow down the estimated location of the TurtleBot3 on the map which is displayed with tiny green arrows
 
 
+![image](https://user-images.githubusercontent.com/97844314/183307333-f92fd697-f2a3-448d-a542-cd8976b0f1af.jpeg)
+
+
+![image](https://user-images.githubusercontent.com/97844314/183307348-28273a68-7211-41df-8329-7e19a63a4f04.jpeg)
+
+
+![image](https://user-images.githubusercontent.com/97844314/183307362-dec214ea-454e-4d30-b7a8-85a0de583cb7.jpeg)
+
+
 * Set Navigation Goal , Click the 2D Nav Goal button in the RViz menu
 
 
