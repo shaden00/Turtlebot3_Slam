@@ -128,3 +128,4 @@ when turtle3 slam node is launched successfully the RViz window will be opened
 $ rosrun map_server map_saver -f ~/map
 ```
 
+![image](https://user-images.githubusercontent.com/97844314/183306296-3322619d-7c61-415a-b190-e5e9630084f8.jpeg)
