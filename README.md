@@ -62,3 +62,15 @@ $ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 now let's operate turtle3 burger in Gazebo , you can visit the simulation section of the turtle3 from [HERE](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/) for more details 
 
 
+**Install Simulation Package**
+The TurtleBot3 Simulation Package requires turtlebot3 and turtlebot3_msgs packages as prerequisite. Without these prerequisite packages, the Simulation cannot be launched
+```
+$ cd ~/catkin_ws/src/
+$ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+$ cd ~/catkin_ws && catkin_make
+```
+**set burger for turtle3 model parameter and run Gazebo** 
+```
+$ export TURTLEBOT3_MODEL=burger
+$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
+```
