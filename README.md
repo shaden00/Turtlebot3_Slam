@@ -75,3 +75,11 @@ $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 ![image](https://user-images.githubusercontent.com/97844314/183302801-e90b474f-c538-4c8f-a727-d4474a68ab5b.jpeg)
+
+
+**when gazebo is executed create a new terminal and run the teleoperate**
+In order to teleoperate the TurtleBot3 with the keyboard, launch the teleoperation node with below command in a new terminal window
+```
+$ export TURTLEBOT3_MODEL=burger
+$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
