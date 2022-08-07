@@ -113,5 +113,11 @@ when turtle3 slam node is launched successfully the RViz window will be opened
 
 **now move the turtlebot3 burger with your keyboard to create a map**
 
+![image](https://user-images.githubusercontent.com/97844314/183306009-b94e5dd7-47f5-43eb-83cd-8243fbce75ab.jpeg)
+
+
+
+
+![image](https://user-images.githubusercontent.com/97844314/183306016-f396b19e-e6a0-4340-8744-b260c406efb1.jpeg)
 
 
