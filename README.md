@@ -121,3 +121,10 @@ when turtle3 slam node is launched successfully the RViz window will be opened
 ![image](https://user-images.githubusercontent.com/97844314/183306016-f396b19e-e6a0-4340-8744-b260c406efb1.jpeg)
 
 
+
+
+* when you finished creading the map open a new terminal and save the map 
+```
+$ rosrun map_server map_saver -f ~/map
+```
+
