@@ -78,10 +78,34 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 
 **when gazebo is executed create a new terminal and run the teleoperate**
+
 In order to teleoperate the TurtleBot3 with the keyboard, launch the teleoperation node with below command in a new terminal window
 ```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 ![image](https://user-images.githubusercontent.com/97844314/183302997-61261a38-231f-4aa9-882b-860a89e327a7.jpeg)
+
+
+# third
+
+**SLAM & save a map**
+
+in the next setup we will review how to create a map using slam and save the map
+
+* run Gazebo using an identical execution command we used previously 
+```
+$ export TURTLEBOT3_MODEL=burger
+$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
+
+if gazebo is up and running create a new terminal and run turtle3 **slam** node
+```
+$ export TURTLEBOT3_MODEL=burger
+$ roslaunch turtlebot3_slam turtlebot3_slam.launch
+```
+
+when turtle3 slam node is launched successfully the RViz window will be opened 
+
+
 
