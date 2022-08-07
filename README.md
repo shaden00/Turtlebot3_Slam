@@ -129,3 +129,39 @@ $ rosrun map_server map_saver -f ~/map
 ```
 
 ![image](https://user-images.githubusercontent.com/97844314/183306296-3322619d-7c61-415a-b190-e5e9630084f8.jpeg)
+
+
+
+
+
+**Launch navigation**
+
+now it's time to navigate the map we just created
+```
+$ export TURTLEBOT3_MODEL=burger
+$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
+```
+
+when gazebo is executed open a new terminal and run turtlebot3 navigation 
+```
+$ export TURTLEBOT3_MODEL=burger
+$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
+```
+
+**now you can see  RViz window with the map created earlier**
+
+
+* Click the 2D Pose Estimate button in the RViz menu
+<img width="574" alt="Screenshot_3" src="https://user-images.githubusercontent.com/97844314/183307173-6bbd9b6c-6e02-436f-bd4c-efda0c320f53.png">
+
+
+* Click on the map where the actual robot is located and drag the large green arrow toward the direction where the robot is facing
+
+* Move the robot back and forth a bit to collect the surrounding environment information and narrow down the estimated location of the TurtleBot3 on the map which is displayed with tiny green arrows
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+* Set Navigation Goal , Click the 2D Nav Goal button in the RViz menu
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+
