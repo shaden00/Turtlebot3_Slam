@@ -99,7 +99,7 @@ $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 
-if gazebo is up and running create a new terminal and run turtle3 **slam** node
+* if gazebo is up and running create a new terminal and run turtle3 **slam** node
 ```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch
@@ -123,7 +123,7 @@ when turtle3 slam node is launched successfully the RViz window will be opened
 
 
 
-* when you finished creading the map open a new terminal and save the map 
+* when you finished creating the map open a new terminal and save the map 
 ```
 $ rosrun map_server map_saver -f ~/map
 ```
@@ -178,6 +178,16 @@ $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/m
 
 
 **finally you will see turtle3 moving towards the destination**
+
+
+
+
+
+
+
+
+
+
 
 
 
