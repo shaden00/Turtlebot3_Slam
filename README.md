@@ -4,9 +4,9 @@
 in this task we will see how to use Turtlebot3 with SLAM approach to create and save a map
 
 
-let me first explain the setting environment 
+**let me first explain the setting environment** 
 * install ubuntu 20.04 in order to install ros1 noetic version 
-*  install the gazebo11 
+* install the gazebo11 
 * for more detailed installation instructions refer to the setup section [HERE](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)
 
 **if this installations are completed we will move on to the next step**
