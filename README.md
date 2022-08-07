@@ -177,3 +177,11 @@ $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/m
 
 
 
+**finally you will see turtle3 moving towards the destination**
+
+
+
+
+
+
+we have completed on reviewing how to teleoperate the turtle3 and run the navigation , please refer to the turtlebot3 manual for more details from [HERE](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)
