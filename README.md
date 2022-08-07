@@ -107,5 +107,6 @@ $ roslaunch turtlebot3_slam turtlebot3_slam.launch
 
 when turtle3 slam node is launched successfully the RViz window will be opened 
 
+![image](https://user-images.githubusercontent.com/97844314/183304867-b3d7b6d5-6e0d-4eff-bce2-a56a721c97ce.jpeg)
 
 
