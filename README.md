@@ -134,16 +134,5 @@ $ rosrun map_server map_saver -f ~/map
 
 
 
-**Launch navigation**
 
-now it's time to navigate the map we just created
-```
-$ export TURTLEBOT3_MODEL=burger
-$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
-```
-
-when gazebo is executed open a new terminal and run turtlebot3 navigation 
-```
-$ export TURTLEBOT3_MODEL=burger
-$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
 
